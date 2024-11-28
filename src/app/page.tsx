@@ -3,6 +3,7 @@ import axios from "axios";
 
 const client = axios.create({
   baseURL: "https://test-hosting-cookies.vercel.app/api",
+  withCredentials: true,
 });
 
 export default function Home() {
